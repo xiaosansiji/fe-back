@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/xiaosansiji/fe-back#readme",
   "dependencies": {
-    "koa": "^2.5.0"
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0"
   },
   "devDependencies": {
     "eslint": "^4.18.2"
