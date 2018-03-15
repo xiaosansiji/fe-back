@@ -1,0 +1,30 @@
+{
+  "name": "fe-back",
+  "version": "0.0.1",
+  "description": "back end for fe-sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node src/app.js",
+    "lint": "eslint --fix --ext .js src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaosansiji/fe-back.git"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "xiaosansiji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaosansiji/fe-back/issues"
+  },
+  "homepage": "https://github.com/xiaosansiji/fe-back#readme",
+  "dependencies": {
+    "koa": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2"
+  }
+}
